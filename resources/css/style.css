@@ -1,3 +1,9 @@
+/*Tea Cozy Project - a mock
+website for demonstrating
+flexbox and positioning
+techniques.*/
+
+/*Base Element Styling*/
 body {
   font-family:Helvetica,sans-serif;
   font-size:22px;
@@ -18,7 +24,8 @@ header {
   align-items:center;
   display:flex;
   background-color:black;
-
+  top:0px;
+  left:0px;
 }
 
 nav span {
@@ -27,6 +34,11 @@ nav span {
 
 a {
   color:seashell;
+}
+
+footer {
+  text-align:left;
+  padding-left:20px;
 }
 
 /*header styling*/
